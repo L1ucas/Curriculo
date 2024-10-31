@@ -1,0 +1,12 @@
+{
+    "nome":"",
+    "telefone":"",
+    "email":"",
+    "endereço":"",
+    "cidade":"",
+    "estado":"",
+
+    "competencias_principais": [
+        {"nome":"Programação", "ícone":"programacao_icone.svg"}
+    ]
+}

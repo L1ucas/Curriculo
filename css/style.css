@@ -1,0 +1,41 @@
+@media print{
+    @page {
+        size: A4 portrait;
+    }
+
+    body {
+        width: 21cm;
+        height: 29.7cm;
+        margin: 30mm 45mm 30mm 45mm;
+    }
+}
+
+* {
+    border: solid 1px black;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    width: fit-content;
+}
+
+body {
+    font-family: "Iosevka Aile", "Fira Sans", "Noto Sans", sans-serif;
+    width: 21cm;
+    height: 29.7cm;
+    margin: 20mm 20mm 20mm 10mm;
+}
+
+@media print {
+    body{
+/*        width: 21cm;*/
+/*        height: 29.7cm; */
+/*        margin: 30mm 45mm 30mm 45mm; */
+        /* change the margins as you want them to be. */
+   } 
+}
+
+
+

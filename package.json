@@ -1,0 +1,15 @@
+{
+    "name": "l1ucas.github.io",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.html",
+    "scripts": {
+        "serve":"browser-sync start --server --files \"css/*.css, js/*.js, *.html, minhas_informações.json\""
+    },
+    "keywords": [],
+    "author": "Pedro Lucas",
+    "license": "",
+    "dependencies": {
+        "browser-sync": "^3.0.3"
+    }
+}
